@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "TPS61087") (type "KiCad") (uri "${KICAD10_SYMBOL_DIR}/TPS61087.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS61087DSCR") (type "KiCad") (uri "${KICAD10_SYMBOL_DIR}/TPS61087DSCR.kicad_sym") (options "") (descr ""))
+)

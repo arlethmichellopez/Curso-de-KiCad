@@ -3315,7 +3315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+		(property "Footprint" "TPS61087DRC:IC_TPS61087DSCR"
 			(at 154.94 48.26 0)
 			(hide yes)
 			(show_name no)

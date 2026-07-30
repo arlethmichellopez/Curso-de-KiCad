@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TPS61087DRC") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/TPS61087DRC.pretty") (options "") (descr ""))
+)

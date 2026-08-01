@@ -4546,9 +4546,9 @@
 		(uuid "cc3bd854-7f83-4171-bafc-d0124de6a44a")
 		(at 153.925 89.25)
 		(property "Reference" "U3"
-			(at 0.075 2.5 0)
+			(at 1.325 2 0)
 			(layer "F.SilkS")
-			(uuid "a4c93e05-2fa2-4215-b3b4-8fd78794924c")
+			(uuid "bb4baaf8-c4fe-41da-8128-1d5b54f88a53")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -4559,7 +4559,7 @@
 		(property "Value" "TPS61087DSCR"
 			(at 0.075 -2.5 0)
 			(layer "F.Fab")
-			(uuid "38293c14-6441-49d9-b156-cdd1967a95ba")
+			(uuid "af2ed01f-55ca-42e7-bced-286be8f5de9b")
 			(effects
 				(font
 					(size 0.64 0.64)
@@ -4571,7 +4571,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a42c50e-e242-48fe-96be-8c0d922a7612")
+			(uuid "9c09b152-0024-4960-86f9-279af7363d31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,7 +4582,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66e7a669-ecfb-46da-8a25-9a3b8b6d9ad4")
+			(uuid "8992d8a8-c374-4b6b-94dc-fa608914161d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,6 +4953,18 @@
 			(fill yes)
 			(layer "F.Paste")
 			(uuid "ee9244b2-7ee3-40f3-8eae-4e23f490aaee")
+		)
+		(fp_poly
+			(pts
+				(xy -0.75 0) (xy 0.75 0) (xy 0.75 1.06) (xy -0.75 1.06)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "2b1b0762-0c1f-468c-8bb6-37039c729eb3")
 		)
 		(fp_poly
 			(pts

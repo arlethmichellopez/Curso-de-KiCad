@@ -2677,7 +2677,7 @@
 		(uuid "1d0b9c18-0060-4f8f-a0a0-26b0ef22ff36")
 	)
 	(junction
-		(at 262.89 43.18)
+		(at 210.82 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48fb318c-988c-45a1-8364-ed0db0799b75")
@@ -2701,7 +2701,7 @@
 		(uuid "5a777a06-12c1-4a41-818e-c5da2f3cf296")
 	)
 	(junction
-		(at 262.89 53.34)
+		(at 210.82 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f2eae24-38e4-4242-b48a-a9805d7dd4ee")
@@ -2719,7 +2719,7 @@
 		(uuid "691bfe0a-1372-4e1a-a75e-46e3d4f60cf4")
 	)
 	(junction
-		(at 262.89 33.02)
+		(at 210.82 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88c13f4d-1984-408a-a04d-5e12028d64a8")
@@ -2918,7 +2918,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 53.34) (xy 262.89 60.96)
+			(xy 210.82 60.96) (xy 210.82 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2948,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 22.86) (xy 262.89 33.02)
+			(xy 210.82 30.48) (xy 210.82 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3008,7 +3008,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 22.86) (xy 262.89 22.86)
+			(xy 201.93 30.48) (xy 210.82 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3018,7 +3018,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 53.34) (xy 262.89 53.34)
+			(xy 201.93 60.96) (xy 210.82 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3228,7 +3228,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 43.18) (xy 262.89 43.18)
+			(xy 201.93 50.8) (xy 210.82 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3278,7 +3278,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 33.02) (xy 262.89 43.18)
+			(xy 210.82 40.64) (xy 210.82 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3368,7 +3368,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 43.18) (xy 262.89 53.34)
+			(xy 210.82 50.8) (xy 210.82 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3378,7 +3378,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 33.02) (xy 262.89 33.02)
+			(xy 201.93 40.64) (xy 210.82 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4409,7 +4409,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 251.46 43.18 90)
+		(at 199.39 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4420,7 +4420,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e5018e7-ee8a-469f-ac45-f43df05f7a05")
 		(property "Reference" "H3"
-			(at 250.19 36.83 90)
+			(at 198.12 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4430,7 +4430,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 250.19 39.37 90)
+			(at 198.12 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4440,7 +4440,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad"
-			(at 251.46 43.18 0)
+			(at 199.39 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4451,7 +4451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 43.18 0)
+			(at 199.39 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4462,7 +4462,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 251.46 43.18 0)
+			(at 199.39 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4729,7 +4729,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 251.46 33.02 90)
+		(at 199.39 40.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4740,7 +4740,7 @@
 		(fields_autoplaced yes)
 		(uuid "48396c17-f20d-472d-aa41-43d3fa76bc8c")
 		(property "Reference" "H2"
-			(at 250.19 26.67 90)
+			(at 198.12 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4750,7 +4750,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 250.19 29.21 90)
+			(at 198.12 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4760,7 +4760,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad"
-			(at 251.46 33.02 0)
+			(at 199.39 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4771,7 +4771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 33.02 0)
+			(at 199.39 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4782,7 +4782,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 251.46 33.02 0)
+			(at 199.39 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5201,7 +5201,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 251.46 22.86 90)
+		(at 199.39 30.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5212,7 +5212,7 @@
 		(fields_autoplaced yes)
 		(uuid "668926ab-4640-4df6-8759-fd8c2a3c862c")
 		(property "Reference" "H1"
-			(at 250.19 16.51 90)
+			(at 198.12 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5222,7 +5222,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 250.19 19.05 90)
+			(at 198.12 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5232,7 +5232,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad"
-			(at 251.46 22.86 0)
+			(at 199.39 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5243,7 +5243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 22.86 0)
+			(at 199.39 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5254,7 +5254,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 251.46 22.86 0)
+			(at 199.39 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5924,7 +5924,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 60.96 0)
+		(at 210.82 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5935,7 +5935,7 @@
 		(fields_autoplaced yes)
 		(uuid "a60bfa40-6239-43a8-8054-eabc0b19bb32")
 		(property "Reference" "#PWR05"
-			(at 262.89 67.31 0)
+			(at 210.82 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5946,7 +5946,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 66.04 0)
+			(at 210.82 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5956,7 +5956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 60.96 0)
+			(at 210.82 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5967,7 +5967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 60.96 0)
+			(at 210.82 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5978,7 +5978,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 60.96 0)
+			(at 210.82 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6159,7 +6159,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 251.46 53.34 90)
+		(at 199.39 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6170,7 +6170,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7e236ea-c6b9-4f76-a0ea-dc01573b5709")
 		(property "Reference" "H4"
-			(at 250.19 46.99 90)
+			(at 198.12 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6180,7 +6180,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad_MP"
-			(at 250.19 49.53 90)
+			(at 198.12 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6190,7 +6190,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad"
-			(at 251.46 53.34 0)
+			(at 199.39 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6201,7 +6201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 53.34 0)
+			(at 199.39 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6212,7 +6212,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 251.46 53.34 0)
+			(at 199.39 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

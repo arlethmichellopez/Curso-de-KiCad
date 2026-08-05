@@ -10399,7 +10399,8 @@
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash_dot)
+			(color 255 111 222 1)
 		)
 		(uuid "4e7522fb-9d1e-4bdd-bdd4-61c51243b5f0")
 	)

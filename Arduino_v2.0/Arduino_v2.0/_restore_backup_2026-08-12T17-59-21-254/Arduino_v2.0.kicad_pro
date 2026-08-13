@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.3,
-          "width": 0.3
+          "drill": 3.2,
+          "height": 4.5,
+          "width": 4.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -212,10 +212,8 @@
       "track_widths": [
         0.0,
         0.2,
-        0.25,
         0.3,
-        0.5,
-        0.8
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -506,14 +504,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Arduino.kicad_pro",
+    "filename": "Arduino_v2.0.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -598,30 +596,36 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         },
         {
@@ -680,20 +684,8 @@
         },
         {
           "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
           "show": false
         },
         {
@@ -731,14 +723,80 @@
           "label": "Availability",
           "name": "Availability",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_PART_NUMBER",
+          "name": "MANUFACTURER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR_NAME",
+          "name": "MFR_NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Amazon",
+          "name": "Amazon",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "LCSC"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -776,17 +834,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Arduino.kicad_sch",
+        "filename": "Arduino_v2.0.kicad_sch",
         "name": "Raíz",
-        "uuid": "97fe0779-0fa8-410f-99e1-8aaf769dce30"
+        "uuid": "4cccb679-42b1-4389-87ea-0447fb925632"
       }
     ],
-    "used_designators": "P1,C1-19,#PWR1-110,L1,D1-13,J1-14,#FLG1-5,R1-48,U1-7,RV1,SW1-6,Q1-12,A1,H1-4",
+    "used_designators": "J1-10,R1-38,#FLG1-6,L1,D1-13,#PWR1-96,C1-18,H1-4,Q1-6,RV1,SW1-6,U1-6,P1",
     "variants": []
   },
   "sheets": [
     [
-      "97fe0779-0fa8-410f-99e1-8aaf769dce30",
+      "4cccb679-42b1-4389-87ea-0447fb925632",
       "Raíz"
     ]
   ],
